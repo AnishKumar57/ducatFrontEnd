@@ -18,22 +18,25 @@ function Navbar() {
                   <li className="nav-item">
                     <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                   </li>
-                  <li className="nav-item">
-                    <Link className="nav-link" to="aboutus">About us</Link>
-                  </li>
                   <li className="nav-item dropdown">
-                    <Link className="nav-link dropdown-toggle" to="pp" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
+                    <Link className="nav-link dropdown-toggle" to="cources" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Cources
                     </Link>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><Link className="dropdown-item" to="#">Action</Link></li>
-                      <li><Link className="dropdown-item" to="#">Another action</Link></li>
-                      <li><hr className="dropdown-divider"/></li>
-                      <li><Link className="dropdown-item" to="#">Something else here</Link></li>
+                      <li><Link className="dropdown-item" to="#">MERN</Link></li>
+                      <li><Link className="dropdown-item" to="#">MEAN</Link></li>
+                      <li><Link className="dropdown-item" to="#">Java Full Stack</Link></li>
+                      <li><Link className="dropdown-item" to="#">.Net Full Stack</Link></li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Disabled</Link>
+                    <Link className="nav-link" to="careers">Careers</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="aboutus">About us</Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="contactus" tabindex="-1" aria-disabled="true">Contact us</Link>
                   </li>
                 </ul>
                 <form className="d-flex">
